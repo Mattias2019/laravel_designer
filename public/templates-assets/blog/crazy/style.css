@@ -1,0 +1,258 @@
+a:focus{
+  outline: none !important;
+}
+
+#blogs_main .blog-content-elements-main{
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+  background-color: #F2F0F1;
+  padding: 10px;
+}
+
+#blogs_main .blog-content-elements-main .blog-media img, #blogs_main .best-blog-content .blog-box img{
+  /*max-width: 100%;*/
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+}
+
+#blogs_main .blog-content-elements-main:hover img, #blogs_main .best-blog-content .blog-box:hover img{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-filter: hue-rotate(90deg); 
+  filter: hue-rotate(90deg);
+}
+
+#blogs_main .blog-content-elements-main .blog-text{
+  padding: 10px;
+  height: 305px;
+}
+
+#blogs_main .blog-content-elements-main .blog-text p span.blog-comments, #blogs_main .blog-content-elements-main .blog-text p span.blog-date, #blogs_main .blog-content-elements-main .blog-text p.blog-description{
+  font-size: 14px;
+}
+
+#blogs_main .blog-content-elements-main .blog-text p.blog-title{
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 6;
+  font-weight: bold;
+}
+
+#blogs_main .blog-content-elements-main a{
+  display: block;
+  font-family: "Lato",sans-serif;
+}
+
+#blogs_main .blog-content-elements-main .btn{
+  background-color: #FFFFFF;
+  color: #444444;
+  border: none;
+}
+
+#blogs_main .blog-content-elements-main .btn:hover{
+  background-color: #1FC0A0;
+  color: #FFFFFF;
+  border: none;
+}
+
+#blogs_main .best-blog h2{
+  font-family: "Lato",sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+}
+
+#blogs_main .best-blog .content-title h2::after{
+  background: #1fc0a0 none repeat scroll 0 0;
+  bottom: -1em;
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  width: 68px;
+}
+
+#blogs_main .best-blog .content-title{
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+#blogs_main .best-blog .title-under::after{
+  left: 50%;
+  margin-left: -34px;
+}
+
+#blogs_main .best-blog-content a img{
+  width: 100%;
+}
+
+#blogs_main .best-blog-content .blog-box a{
+  color: #FFFFFF;
+  font-family: "Lato",sans-serif;
+  position: relative;
+  display: block;
+  text-decoration: none;
+}
+
+#blogs_main .best-blog-content .blog-box{
+  overflow: hidden;
+}
+
+#blogs_main .best-blog-content a .blog-bottom-text{
+  position: absolute;
+  bottom: 0px;
+  left: 5%;
+}
+
+#blogs_main .best-blog-content .blog-bottom-text p.blog-title{
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+#blogs_main .best-blog-content .blog-bottom-text p span.blog-comments, #blogs_main .best-blog-content .blog-bottom-text p span.blog-date{
+  font-size: 11px;
+  padding-right: 5px;
+}
+
+#blogs_main .extra-padding{
+  padding-bottom: 20px;
+}
+
+#blogs_main .blog-categories-accordian h2, #blogs_main .best-blog h2{
+  font-family: "Lato",sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+}
+
+#blogs_main .blog-categories-accordian h2::after, #blogs_main .best-blog h2::after{
+  background: #1fc0a0 none repeat scroll 0 0;
+  bottom: -1em;
+  content: "";
+  display: block;
+  height: 3px;
+  position: absolute;
+  width: 45px;
+}
+
+
+#blogs_main .blog-categories-accordian .panel-group{
+  margin-bottom: 0px;
+}
+
+#blogs_main .blog-categories-accordian{
+  background-color: #F2F0F1;
+  padding: 10px 10px;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian .panel, #blogs_main .blog-categories-accordian .panel-default > .panel-heading{
+  background-color: transparent;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian .panel-title i.fa-angle-double-right, #blogs_main .blog-categories-accordian .category-accordian .panel-body i.fa-angle-right, #blogs_main .blog-categories-accordian .category-accordian .panel-title i.fa-plus, #blogs_main .blog-categories-accordian .category-accordian .panel-title i.fa-minus{
+  font-size: 14px;
+  color: #1FC0A0;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian .panel-body ul{
+  padding: 0px 0px 0px 0px;
+  list-style: none;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian .panel-body ul li a{
+  color: #333333;
+  font-size: 11px;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian .panel-title a, #blogs_main .blog-categories-accordian .category-accordian .panel-body ul li a{
+  text-decoration: none;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian{
+  margin-top: 30px;
+  font-family: "Lato",sans-serif;
+  text-transform: uppercase;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian .panel-default{
+  border-color:transparent;
+  border-bottom:1px solid #e1e1e1;
+  padding: 0px 10px;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian .panel-heading{
+  padding: 15px 0px;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian .panel-title{
+  font-size: 12px;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian .panel-default:last-child{
+  border-bottom:none;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian .panel-title a, #blogs_main .blog-categories-accordian .category-accordian .panel-body ul li a{
+  text-decoration: none;
+}
+
+#blogs_main .blog-categories-accordian .category-accordian .panel-body ul li{
+  padding: 5px;
+}
+
+#blogs_main .best-blog{
+  padding-top: 30px;    
+}
+
+#blogs_main .blog-media img{
+  width: 100%;    
+}
+
+@media only screen and (max-width: 768px) {
+  #blogs_main .blog-content-elements-main .blog-media{
+    margin-bottom: 10px;
+  }
+  
+  #blogs_main .blog-categories-accordian .responsive-accordian::before{
+    content: "\f067";
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: #1fc0a0;
+    cursor: pointer;
+  }
+  
+  #blogs_main .blog-categories-accordian .responsive-accordian-open::before{
+    content: "\f068";
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    color: #1fc0a0;
+    cursor: pointer;
+  }
+  
+  #blogs_main .blog-categories-accordian h2::after{
+    background: transparent;
+    width:auto;    
+  }
+  
+  #blogs_main .blog-categories-accordian .category-accordian{
+    display: none;    
+  }
+}
+

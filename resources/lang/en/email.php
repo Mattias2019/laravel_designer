@@ -1,0 +1,25 @@
+<?php
+return [
+    'thank_you_for_your_order'                                =>  'Thank you for your order',
+    'msg_bacs_paypal'                                         =>  'Your order is on-hold until we confirm payment has been received.Your order details are shown below for your reference',
+    'msg_cod'                                                 =>  'Your order has been received and is now being processed. Your order details are shown below for your reference',
+    'our_bank_details'                                        =>  'Our Bank Details',
+    'account_number'                                          =>  'Account Number',
+    'sort_code'                                               =>  'Sort Code',
+    'order'                                                   =>  'Order',
+    'product'                                                 =>  'Product',
+    'quantity'                                                =>  'Quantity',
+    'price'                                                   =>  'Price',
+    'total'                                                   =>  'Total',
+    'subtotal'                                                =>  'Subtotal',
+    'shipping_cost'                                           =>  'Shipping Cost',
+    'free'                                                    =>  'Free',
+    'tax'                                                     =>  'Tax',
+    'payment_method'                                          =>  'Payment Method',
+    'customer_details'                                        =>  'Customer Details',
+    'email'                                                   =>  'Email',
+    'tel'                                                     =>  'Tel',
+    'billing_address'                                         =>  'Billing Address',
+    'powered_by'                                              =>  'Powered by',
+    
+];

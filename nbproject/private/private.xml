@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="5">
+        <file>
+            <url>public/frontend/js/common.js</url>
+            <bookmark id="2">
+                <name/>
+                <line>374</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>app/Library/GetFunction.php</url>
+            <bookmark id="4">
+                <name/>
+                <line>2989</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>resources/views/pages/frontend/frontend-pages/brand-single-page.blade.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>101</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>resources/views/pages-message/notify-msg-success.blade.php</url>
+            <bookmark id="3">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/H:/latest/htdocs/shopist/resources/views/pages/frontend/frontend-pages/cart.blade.php</file>
+            <file>file:/H:/latest/htdocs/shopist/resources/lang/en/frontend.php</file>
+            <file>file:/H:/latest/htdocs/shopist/public/designer/designer.js</file>
+            <file>file:/H:/latest/htdocs/shopist/resources/views/pages/frontend/frontend-pages/frontend-designer.blade.php</file>
+            <file>file:/H:/latest/htdocs/shopist/app/Helpers/helpers.php</file>
+            <file>file:/H:/latest/htdocs/shopist/public/designer/designer.css</file>
+            <file>file:/H:/latest/htdocs/shopist/resources/views/pages/ajax-pages/cart-html.blade.php</file>
+            <file>file:/H:/latest/htdocs/shopist/resources/views/pages/common/designer-html.blade.php</file>
+            <file>file:/H:/latest/htdocs/shopist/app/Library/CommonFunction.php</file>
+            <file>file:/H:/latest/htdocs/shopist/resources/views/pages/frontend/frontend-pages/frontend-designer-html.blade.php</file>
+            <file>file:/H:/latest/htdocs/shopist/app/Http/Controllers/Frontend/FrontendManagerController.php</file>
+            <file>file:/H:/latest/htdocs/shopist/resources/views/pages/admin/orders/order-details.blade.php</file>
+            <file>file:/H:/latest/htdocs/shopist/routes/web.php</file>
+            <file>file:/H:/latest/htdocs/shopist/resources/lang/en/designer.php</file>
+            <file>file:/H:/latest/htdocs/shopist/app/Library/GetFunction.php</file>
+            <file>file:/H:/latest/htdocs/shopist/app/Http/Controllers/OrderController.php</file>
+            <file>file:/H:/latest/htdocs/shopist/app/Http/Controllers/Frontend/FrontendAjaxController.php</file>
+            <file>file:/H:/latest/htdocs/shopist/public/designer/designerControl.js</file>
+        </group>
+    </open-files>
+</project-private>
